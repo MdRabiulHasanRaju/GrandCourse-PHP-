@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{background-size: cover;background-repeat: no-repeat;height: 100%;font-family: 'Numans', sans-serif;background: BLACK;}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{height: 370px;margin-top: auto;margin-bottom: auto;border: 1px solid white;width: 400px;background-color: rgba(0,0,0,0.5) !important;}
+
+.social_icon span{font-size: 60px;margin-left: 10px;color: #12e9ff;}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{width: 50px;background-color: #12e3ff;color: black;border:0 !important;}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{color: black;background-color: #12c2ff;width: 100px;}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{margin-left: 4px;text-decoration: none;}
+a.home-page {
+    color: aqua;
+    border: 1px solid;
+    padding: 4px;
+    text-decoration: none;
+}
+h1.gc {
+    text-align: center;
+    color: #00e5fc;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    top: 110px;
+    border: 1px solid white;
+    width: 36%;
+    margin: auto;
+    box-shadow: 1px 1px 28px -10px white;
+}
+.logo-img>img{
+	border-radius:10%;
+}
+.logo-img-register {
+    text-align: center;
+    position: relative;
+    top: 110px;
+    margin-bottom: 5px;
+}
+.logo-img-login {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    margin-bottom: 5px;
+}
+.strength {
+	display: none;
+	color: red;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bold;
+	position: relative;
+	top: -13px;
+	font-size: 13px;
+	background: black;
+	width: 156px;
+	float: right;
+}
