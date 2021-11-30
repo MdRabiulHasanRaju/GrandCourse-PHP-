@@ -51,6 +51,9 @@ if(isset($_SESSION["err"])){
 						</div>
 						<input type="password" name="password" class="form-control" placeholder="password" required>
 					</div>
+					<div class="forgot-pass" >
+						<a href="forgotpass.php">Forgot Password</a>
+					</div>
 					<span style="color:red"><?php echo $err; unset($_SESSION['err']); ?></span>
 					<div class="form-group">
 						<input name="submit" type="submit" value="Login" class="btn float-right login_btn">
